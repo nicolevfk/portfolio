@@ -1,0 +1,50 @@
+/* this css file will only style the homepage of our site */
+.text-box {
+  width: 75%;
+  flex-basis: 75%;
+}
+
+.photo-box {
+  width: 25%;
+  flex-basis: 25%;
+}
+
+.photo-box img {
+  width: 100%;
+}
+
+.split {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+p, ul {
+  color: #5C1A1B;
+  list-style-type: circle;
+}
+
+h2 {
+  color: #8C2155;
+}
+
+h1 {
+  color: #E1CE7A;
+  text-align: center;
+  text-shadow: -2px -2px #8C2155;
+  margin: 10px;
+}
+
+
+#content {
+  background-color: #1AC8ED;
+}
+
+.minor-section {
+  background-color: #AED4E6;
+}
+
+h2, p, ul {
+  margin: 20px;
+}
