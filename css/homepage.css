@@ -55,3 +55,29 @@ div a {
   margin: auto;
   margin-bottom: 10px;
 }
+
+.left {
+  flex-basis: 50%;
+}
+
+.right {
+  flex-basis: 50%;
+}
+
+.side-by-side {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.summary-vid {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#video {
+  background-color: rgba(0, 0, 0, 0.767);
+}
