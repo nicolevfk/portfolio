@@ -17,6 +17,7 @@ h3 {
 
 .navbar-light .navbar-brand {
   color: rgb(40 43 57 / 90%);
+  font-size: 2rem;
 }
 
 body {
@@ -39,6 +40,10 @@ i {
 img {
   border: solid 3px white;
   border-radius: 5px;
+  max-height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-primary {
