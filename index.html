@@ -2,8 +2,13 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Nicole's Portfolio</title>
-	<!-- Use UTF character set, a good idea with any webpage -->
+	<title>Nicole Van Fleet Kingery | Game Designer, UI/UX Designer, 2D & 3D Artist</title>
+    <!-- Bootstrap links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Use UTF character set, a good idea with any webpage -->
 	<meta charset="UTF-8" />
 	<!-- Set viewport so page remains consistently scaled w narrow devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,32 +20,74 @@
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
 
+<!-- Navbar -->
 <body>
-    <main id="content">
-        <section>
-            <!-- title -->
-            <h1>Hi! My name is </br>
-            Nicole Van Fleet Kingery </h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Brand or logo with a link to the homepage -->
+        <a class="navbar-brand" href="#">Nicole Van Fleet Kingery</a>
+        <!-- Add your navigation links here -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#portfolio">My Work</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-            <div class="minor-section split">
-                <!-- class split puts text on left and picture on right -->
-                <div class="text-box">
-                    <p> </p>
-                </div>
-                <div class="image-box">
-                    <img id="selfie" src="img/selfie.jpg">
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container">
+        <h2>My Work</h2>
+        <!-- Add your portfolio items here -->
+        <!-- Row for each portfolio item -->
+        <div class="row">
+            <!-- Text Column -->
+            <div class="col-md-7">
+                <h3>Career Path Podcasts</h3>
+                <i> UI/UX Design | Figma </i>
+                <p> Designed an app from scratch in Figma geared towards helping highschoolers consider options
+                    for their future. </p>
+                <div class="links" class="split">
+                    <!-- Add any additional information, buttons, or links here -->
+                    <div class="left">
+                        <a href="https://www.figma.com/proto/z1kvrFKFn3OJQtQVcJMdwP/Group-5-HW8-CMPM178?node-id=115-1787&mode=design&t=z2iYOmkW9qhLw78G-1" class="btn btn-primary" target="_blank">View Project</a>
+                    </div>
+                    <div class="right">
+                        <a href="https://www.figma.com/proto/iUqFRVbkZGId13NqeunHp2/Interactive-Prototype-Group-5-HW9?scaling=scale-down&page-id=0%3A1&starting-point-node-id=142%3A1518&node-id=142-1518&mode=design&t=VLn183vsWVDcvTAE-1" class="btn btn-primary" target="_blank">View Interactive Prototype</a> 
+                    </div>
                 </div>
             </div>
-        </section>
-        <nav id="links">
-            <!-- Put links to labs here. -->
-			<ul>
-				<li><a href="digital-games/index.html" target="_new">Digital Games</a></li>
-				<li><a href="analog-games/index.html" target="_new">Analog Games</a></li>
-				<li><a href="2d-art/index.html" target="_new">2D Artwork</a></li>
-                <li><a href="3d-art/index.html" target="_new">3D Artwork</a></li>
-				<li><a href="ui-design/index.html" target="_new">UI/UX Design</a></li>
-			</ul>
-        </nav>
-    </main>
+            <!-- Image Column -->
+            <div class="col-md-5">
+                <img src="img/careerpathpod.png" class="img-fluid" alt="Career Path Podcasts Poster">
+            </div>
+            <!-- Text Column -->
+            <div class="col-md-7">
+                <h3>Bumbling Bees</h3>
+                <i> Analog Game Design | Clip Studio Pro, Adobe Illustrator & InDesign </i>
+                <p> Designed an app from scratch in Figma geared towards helping highschoolers consider options
+                    for their future. </p>
+                <div class="links">
+                    <!-- Add any additional information, buttons, or links here -->
+                    <a href="https://www.figma.com/proto/z1kvrFKFn3OJQtQVcJMdwP/Group-5-HW8-CMPM178?node-id=115-1787&mode=design&t=z2iYOmkW9qhLw78G-1" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+            </div>
+            <!-- Image Column -->
+            <div class="col-md-5">
+                <img src="img/careerpathpod.png" class="img-fluid" alt="Career Path Podcasts Poster">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <!-- Add your content here -->
+        I am currently a 4th year UCSC student majoring in Art and Design: Games and Playable Media.
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <!-- Add your contact form or details here -->
+        <p> Email: nicolevfk@gmail.com </p>
+    </section>
 </body>
