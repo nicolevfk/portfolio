@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Making js for index.html
+// Author: Nicole Van Fleet Kingery
+// Date: 11/17/2023
 
 // Constants
 

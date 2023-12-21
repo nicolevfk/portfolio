@@ -86,3 +86,22 @@ div a {
 #video {
   background-color: rgba(0, 0, 0, 0.767);
 }
+
+.minor-section {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+}
+
+a {
+  margin-left: 20px;
+  padding-bottom: 40px;
+  color: purple;
+}
+
+#selfie {
+  border-radius: 50%;
+  border: solid 3px white;
+}
